@@ -1,0 +1,44 @@
+
+
+.main_art{
+ margin-left:auto;
+ margin-right:auto;
+ display:block;	
+ margin-top: 20px;
+ background: black;
+ width:100%;
+ max-width:350px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: #5a5855;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; }
+
+body.art
+{
+  background-color:black;
+}
+svg{
+	
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);	
+}
+
+.art_div
+{
+	position:relative;	
+}
+.btn{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+	
