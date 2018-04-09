@@ -4,7 +4,7 @@
 <link type="text/css" rel="stylesheet" href="../css/main.css" />
 <style>
 
-	  #path3
+	   #path3
 	  {	 
        animation: doRotateOpp 100s infinite linear; 
       }
@@ -12,7 +12,10 @@
 	  {	 
        animation: doRotate 100s infinite linear; 
       }
-	 
+	  #path2
+	  {	 
+       animation: star 10s infinite ease-in; 
+      } 
 	  @keyframes doRotate
 	  {
        to {
@@ -25,8 +28,19 @@
 			transform: rotate(-360deg);
 		  }
 	  }
-	  
-}
+	  @keyframes star
+	  {
+
+      5%{
+          transform: scale(1);
+      }
+      50%{
+          transform: scale(1.12);
+        }
+      100%{
+          transform: scale(1);
+		  }
+	  }	  
     </style>
 </head>
 <body class="art">

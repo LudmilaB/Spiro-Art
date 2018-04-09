@@ -7,6 +7,14 @@
 	  {	 
        animation: doRotate 160s infinite linear; 
       }
+      #path3
+	  {	 
+       animation: doRotateOpp 360s infinite linear; 
+      }
+	  #path1
+	  {	 
+       animation: star 10s infinite ease-in; 
+      } 
 
 	  @keyframes doRotate
 	  {
@@ -24,16 +32,15 @@
 	  @keyframes star
 	  {
       0%{
-          transform: scale(.9);
+          transform: scale(1);
       }
       50%{
-          transform: scale(1.45);
+          transform: scale(1.12);
         }
       100%{
-          transform: scale(.9);
+          transform: scale(1);
        }
       }
-}
     </style>
 </head>
 <body class="art">

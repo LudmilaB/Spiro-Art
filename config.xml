@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
 <widget xmlns = "http://www.w3.org/ns/widgets" 
-   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shapesmania.hypnooart" version = "1.00">
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shapesmania.spiroart" version = "1.00">
    
-   <name>Hypnotizing Art</name>
+   <name>Spirographic Art</name>
    
    <description>
-      Hypnotizing Art
+      Spirographic Art
    </description>
    
    <author href = "http://shapesmania.com/" email = "ludmiladvmnt@gmail.com">
