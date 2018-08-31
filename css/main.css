@@ -30,15 +30,6 @@ svg{
     transform: translate(-50%, -50%);	
 }
 
-.art_div
-{
-	position:relative;	
-}
-.btn{
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 	
