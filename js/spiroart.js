@@ -1,7 +1,7 @@
 
 
 var AnimationFrameID;
-spirnum=16;
+spirnum=15;
 var sps=[];
 for (var i=0; i<spirnum; i++)
 	  sps[i]=document.getElementById('sp-'+ (i+1));
