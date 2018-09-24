@@ -1,7 +1,10 @@
 
 
 var AnimationFrameID;
-spirnum=15;
+spirnum=16;
+var sps=[];
+for (var i=0; i<spirnum; i++)
+	  sps[i]=document.getElementById('sp-'+ (i+1));
 
 cycle=10000 // cycle of  seconds
 	
@@ -26,8 +29,8 @@ for (var i=1; i<=spirnum; i++)
 
 	if(cycletime>(i-1)*cycle && cycletime<=i*cycle)
 	{
-		var sp=document.getElementById('sp-'+ i);
-		var spnext=document.getElementById('sp-'+ (i%spirnum +1));
+		var sp=sps[i-1];
+		var spnext=sps[i%spirnum];
 		if(cycletime<(i-1)*cycle +500)
 			for (var j=1; j<=spirnum; j++)   //clean non-current shapes
 			{
@@ -39,22 +42,18 @@ for (var i=1; i<=spirnum; i++)
 				
 		if(cycletime>i*cycle -1500)
         {
-        	var opacity= (cycletime-(i*cycle-2000))/2000;
+        	var opacity= (cycletime-(i*cycle-1500))/1500;
         	sp.style.opacity = 1-opacity;
         	spnext.style.opacity = opacity;
 			spnext.style.display="block";
-			if(opacity>0.80)
+			if(opacity>0.9)
 			{
 				sp.style.display="none";
 				sp.style.opacity=0;
-				spnext.style.opacity=1;
 			}
+			if(opacity>0.95)
+				spnext.style.opacity=1;
         }				
-	}
-    else
-	{
-		sp=spnext;
-		spnext=document.getElementById('sp-'+ (Math.floor(Math.random() * spirnum) + 1));
 	}
 }
  
