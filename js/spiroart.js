@@ -6,7 +6,7 @@ var sps=[];
 for (var i=0; i<spirnum; i++)
 	  sps[i]=document.getElementById('sp-'+ (i+1));
 
-cycle=15000 // cycle of  seconds
+cycle=12000 // cycle of  seconds
 	
 window.requestAnimFrame = (function(callback) {
         return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame ||
