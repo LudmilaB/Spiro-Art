@@ -12,9 +12,7 @@
    <author href = "http://shapesmania.com/" email = "ludmiladvmnt@gmail.com">
       Shapes Mania
    </author>
-   <uses-sdk android:minSdkVersion="4"
-          android:targetSdkVersion="26"
-          android:maxSdkVersion="26" />
+   <preference name="android-targetSdkVersion" value="26" />
    
    <preference name = "permissions" value = "none"/>
    
