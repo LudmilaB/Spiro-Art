@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
 <widget xmlns = "http://www.w3.org/ns/widgets" 
-   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shapesmania.spiroart" version = "1.205">
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shapesmania.spiroart" version = "1.21">
    
    <name>Spirographic Art</name>
    
@@ -12,6 +12,9 @@
    <author href = "http://shapesmania.com/" email = "ludmiladvmnt@gmail.com">
       Shapes Mania
    </author>
+   <uses-sdk android:minSdkVersion="4"
+          android:targetSdkVersion="26"
+          android:maxSdkVersion="26" />
    
    <preference name = "permissions" value = "none"/>
    
