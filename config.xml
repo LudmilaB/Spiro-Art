@@ -13,6 +13,7 @@
       Shapes Mania
    </author>
    <preference name="android-targetSdkVersion" value="26" />
+   <preference name="android-versionCode" value="30501" />
    
    <preference name = "permissions" value = "none"/>
    
