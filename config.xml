@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
 <widget xmlns = "http://www.w3.org/ns/widgets" 
-   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shapesmania.spiroart" version = "1.25">
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.shapesmania.spiroart" version = "1.26">
    
    <name>Spirographic Art</name>
    
@@ -13,7 +13,7 @@
       Shapes Mania
    </author>
 
-   <preference name="android-versionCode" value="30502" />
+   <preference name="android-versionCode" value="30503" />
    
    <preference name = "permissions" value = "none"/>
    
